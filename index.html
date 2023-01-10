@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f544ea45f7.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 40px;
+        }
+        nav a{
+            text-decoration: none;
+            margin-left: 10px;
+            color: rgb(3, 3, 3);
+            font-size: x-large;
+        }
+
+        section{
+            display: flex;
+            justify-content: right;
+            margin-top: 100px;
+            margin-right: 70px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+        }
+        h1{
+            font-size: 50px;
+        }
+        form input{
+            margin-bottom: 20px;
+           font-size: 40px;
+           border: 2px solid coral;
+           border-radius: 10px;
+           padding: 10px;
+        }
+        #submit{
+            border: 0px;
+            border-radius: 10px;
+            background-color: coral;
+            color: azure;
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact US</a>
+            <a href="">Blog</a>
+        </div>
+        <div class="login">
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+    </nav>
+</header>
+    <body>
+        <section>
+            <form class="loging-form">
+                <h1>Logins Your Account</h1>
+                <input type="email" name="" id="" placeholder="Your Email" required>
+                <input type="password" name="" id="" placeholder="Your Password" required>
+                <input id="submit" type="submit" value="submit">
+            </form>
+        </section>
+    </body>
+</html>
